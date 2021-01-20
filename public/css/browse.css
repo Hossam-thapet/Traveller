@@ -1,0 +1,61 @@
+.container-fluid.row.category {
+    margin: auto;
+    min-height: 350px;
+    padding-bottom: 50px;
+}
+.col-sm-4 {
+    padding-bottom: 20px;
+    padding: 30px;
+}
+.the-card {
+    width: 150px;
+    background-color: white;
+    margin: auto;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    transition: transform 1s;
+    transform: scale(1, 1);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+.the-card:hover {
+    transform: scale(1.1, 1.1);
+}
+.fas {
+    font-size: 70px;
+    /* margin: auto; */
+    text-decoration: none;
+    padding: 30px;
+}
+div.title-card {
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: auto;
+    border-radius: 6px;
+    opacity: 0;
+}
+span.title-card {
+    margin: 10px;
+    color: #ccccff;
+    text-align: center;
+}
+
+.the-card.relax:hover div.title-card {
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
+.the-card.hike:hover div.title-card.hike {
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
+.the-card.swim:hover div.title-card.swim {
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+img{
+    width:100%;
+
+
+}

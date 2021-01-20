@@ -1,0 +1,27 @@
+
+.container-fluid.load
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.loader {
+    border: 16px solid #f2e6ff;
+    border-top: 16px solid #bf80ff;
+    border-bottom: 16px solid #bf80ff;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.

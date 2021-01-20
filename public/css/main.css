@@ -1,0 +1,228 @@
+.container-fluid.row.category {
+    margin: auto;
+    min-height: 350px;
+    padding-bottom: 50px;
+}
+.col-sm-4 {
+
+}
+.the-card {
+    width: 150px;
+    background-color: white;
+    margin: auto;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    transition: transform 1s;
+    transform: scale(1, 1);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+.the-card:hover {
+    transform: scale(1.1, 1.1);
+}
+.fas {
+    font-size: 70px;
+    /* margin: auto; */
+    text-decoration: none;
+    padding: 30px;
+}
+div.title-card {
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: auto;
+    border-radius: 6px;
+    opacity: 0;
+}
+span.title-card {
+    margin: 10px;
+    color: #ccccff;
+    text-align: center;
+}
+
+.the-card.relax:hover div.title-card {
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
+.the-card.hike:hover div.title-card.hike {
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
+.the-card.swim:hover div.title-card.swim {
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
+/* BROWSE */
+.card-deck.ex {
+    background-color: white;
+    padding: 30px;
+    position: relative;
+}
+
+.card {
+    cursor: pointer;
+    position: relative;
+    background-color: white;
+}
+
+.tiket {
+    background-color: inherit;
+    border-radius: 4px;
+    border: none;
+    padding: 4px 10px;
+    background-color: #4d94ff;
+    color: white;
+    box-shadow: 0px 0px 1px 0.5px gray;
+    transition: background-color 0.5s;
+}
+.tiket:hover {
+    background-color: gray;
+}
+
+.the-main {
+    height: 130px;
+    opacity: 1;
+    z-index: 5;
+}
+
+.card:hover {
+    box-shadow: 1px 0px 10px 0.5px rgba(0, 0, 0, 0.5);
+}
+
+/* guids-part */
+.container-fluid.guides {
+    background-color: white;
+}
+.contain-guide {
+    width: 50%;
+    margin: auto;
+}
+.row.guides {
+    padding: 50px;
+}
+.col-sm-4.guides {
+    margin: auto;
+    width: 60%;
+}
+h1 {
+    padding: 30px;
+}
+
+.row.guides img {
+    box-shadow: 0px 0px 6px 0.2px black;
+    max-height: 200px;
+    border-radius: 50%;
+}
+/* why traveller */
+.container-fluid.traveller {
+    background-color: white;
+    padding: 10px;
+}
+.row.traveller {
+    width: 90%;
+    margin: auto;
+}
+.traveller-why {
+    width: 90%;
+    margin: auto;
+    padding-left: 40px;
+}
+.fas.fa-award,
+.fas.fa-bus,
+.fas.fa-user-alt,
+.fas.fa-wallet {
+    margin: auto;
+    color: #3385ff;
+}
+
+/* thierd-Part */
+.media.title {
+    padding-bottom: 50px;
+}
+.contactus {
+    color: white;
+    padding-top: 40px;
+}
+.thired-part {
+    height: auto;
+    padding: 70px;
+}
+.media.fb {
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0.5px black;
+    margin-bottom: 10px;
+    transition: filter 1s;
+    filter: brightness(80%);
+    cursor: pointer;
+}
+
+a.fab {
+    font-size: 170px;
+    text-align: center;
+    margin-left: 7px;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #3385ff;
+}
+.fab.fa-youtube {
+    padding: 15px 10px;
+    color: red;
+}
+.fab.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+.fab.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.media.fb:hover {
+    filter: brightness(120%);
+}
+/* about us */
+.container-fluid.about {
+    background-color: white;
+    height: auto;
+    padding: 10px;
+}
+p {
+    padding: 20px;
+    font-size: 20px;
+}
+h2 {
+    margin: 20px;
+}
+
+
+/* foooter */
+.row.footer {
+    background-color: white;
+    padding: 10px;
+}
+.ul-footer {
+    width: 60%;
+    margin: auto;
+}
+.row.copy-rights {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    margin: auto;
+}
+hr {
+    padding: 0;
+    margin: 0;
+}
+button.chose_class{
+    background-color: inherit;
+    border: none;
+    margin: 70px;
+}

@@ -1,0 +1,30 @@
+.row.browse-row{
+    padding-top: 50px;
+}
+.container-fluid.detailforuser{
+    position: absolute;
+    padding: 10px;
+    color: white;
+    background-color: rgba(255, 204, 204,.6);
+    top: 15px;
+    width: 80%;
+    right: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 0px 0px 0.2px black;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+    margin-left: 30px;
+    padding: 20px 10px;
+
+}
+.browse-conent:hover .container-fluid.detailforuser{
+    opacity: 1;
+}
+.fas.fa-dollar-sign{
+    font-size: 17px;
+    padding: 4px;
+    color:green;
+}
+img.card-img-top{
+    max-height: 210px;
+}

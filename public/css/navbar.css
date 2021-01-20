@@ -1,0 +1,27 @@
+
+.bg {
+    box-shadow: 0px 0px 2px 0.2px gray;
+    z-index: 10;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+a {
+    color: #ccccff;
+    font-size: large;
+    font-family: "Exo", sans-serif;
+    padding: 30px;
+}
+.navbar-brand {
+    font-size: 25px;
+    padding-left: 50px;
+}
+i.fas.fa-sign-in-alt {
+    font-size: 25px;
+    padding: 0px;
+}
+.nav-link:hover {
+    text-decoration: underline black;
+}
